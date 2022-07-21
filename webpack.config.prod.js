@@ -27,7 +27,7 @@ export default {
   module: {
     rules: [
       { test: /\.js$/, exclude: /node_modules/, use: ['babel-loader'] },
-      { test: /\.css$/, use: [MiniCssExtractPlugin.loader, 'css-loader'] },
+      { test: /\.s[ac]ss$/i, use: [MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader'] },
     ],
   },
 };

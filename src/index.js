@@ -1,5 +1,5 @@
 // Dummy code to check if everything is working from the start.
-import './index.css';
+import './index.scss';
 import { deleteUser, getUsers } from './api/userApi';
 
 
