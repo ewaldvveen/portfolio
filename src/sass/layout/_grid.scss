@@ -1,0 +1,23 @@
+.container {
+  max-width: 1200px;
+  display: grid;
+  grid-template-rows: 10vh;
+  margin: 0 auto;
+
+  // temp styles to get the grid system right
+  border: 4px solid palevioletred;
+}
+
+.section {
+  display: grid;
+  grid-auto-rows: 80vh;
+
+  // temp styles to get the grid system right
+  border: 4px solid purple;
+
+  &__wrapper {
+    display: grid;
+    grid-auto-rows: max-content;
+    align-content: center;
+  }
+}

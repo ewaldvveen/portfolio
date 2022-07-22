@@ -1,0 +1,48 @@
+@import './../abstracts/variables';
+
+body {
+  background-color: $green-dark;
+}
+
+.container {
+  background-color: $green-dark;
+  color: $text-light;
+}
+
+// temp styles to get the grid system right
+.header {
+  background-color: $green-light;
+  color: $text-dark;
+}
+
+.intro {
+  background-color: $green-emphasized;
+  color: $text-dark;
+}
+
+.about {
+  background-color: $text-dark;
+  color: $text-light;
+}
+
+.show {
+  background-color: $text-alternative;
+  color: $text-dark;
+}
+
+.cta {
+  background-color: $text-light;
+  color: $text-dark;
+}
+
+.footer {
+  background-color: $green-light;
+  color: $text-dark;
+}
+
+.placeholder {
+  padding: 2rem;
+  margin: 2rem;
+  background-color: $text-light;
+  color: $text-dark;
+}
